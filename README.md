@@ -23,6 +23,10 @@ This is a simple notes application built with React 18 and Next.js 14, utilizing
 
 - Implement the ability to edit existing notes.
 
+## Live Demo
+
+Check out the live version of the app [here](https://notes-drizzle-next.vercel.app/).
+
 ---
 
 This project is a work in progress, focused on experimenting with data persistence in a relational database using Drizzle ORM, and exploring the latest tools in the React and Next.js ecosystem.
