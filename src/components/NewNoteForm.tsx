@@ -26,7 +26,7 @@ const NewNoteForm = ({
   hideLegend = false,
 }: NoteFormProps) => {
   const [pending, setPending] = useState(false);
-  const [errors, setErrors] = useState(initErrors);
+  const [errors, setErrors] = useState<any>(initErrors);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
